@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding: 0;
+	line-height: 2em;
+}
+.body{
+	 background-color: 888888;
+}
+img{
+	float: left;
+	font-size: 
+}
+.child{
+	
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	display: inline-block;
+	text-align: left;
+}
+.child p{
+	text-align: center;
+}
+.bood{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+	display: inline-block;
+	text-align: left;
+}
+p:hover{
+	color: blue;
+	text-decoration: underline;
+}
+b:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.kinhdoanh{
+	padding-right: 1em;
+}

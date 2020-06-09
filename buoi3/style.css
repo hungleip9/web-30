@@ -1,0 +1,42 @@
+p{
+	color: blue;
+	font-size: 50px;
+}
+pre{
+	color: green;
+	font-size: 70px;
+}
+span{
+	color: blue;
+	font-size: 80px;	
+}
+div{
+	width: 500px;
+	height: 10em;
+	background-color: black;
+	
+
+}
+div b{
+	color: white;
+
+
+}
+div h2{
+	color: white;
+}
+.cl1{
+	color: yellow;
+}
+#id1{
+	color: yellow;
+}
+.hn1{
+	color: red
+}
+.hn2{
+	color: blue;
+}
+#hn1{
+	color: yellow;
+}

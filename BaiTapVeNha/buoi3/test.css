@@ -1,0 +1,8 @@
+div{
+	border: 5px solid black;
+	width: 1000px;
+	height:1000px;
+}
+div:hover{
+border: 5px solid green;
+}

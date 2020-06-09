@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+
+.body{
+	
+	
+	width: 1000px;
+	height: 300px;
+}
+.name{
+	border: 1px solid black;
+	float: left;
+	width: 80	px;
+	height: 150px;
+	margin-right: 10px;
+	display: inline-block;
+	text-align: center;
+}
+.name:hover{
+	border: 1px solid yellow;
+}
+
+p:hover{
+	
+	color: yellow;
+	
+}
+img{
+	
+}
+b:hover{
+	color: yellow;
+}
