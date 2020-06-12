@@ -1,0 +1,14 @@
+.web{
+	width: 900px;
+	height: 700px;
+	margin:0 auto;
+	padding: 0;
+	border: 4px solid white;
+	font-size: 12px;
+	font-family: Arial;
+	
+
+}
+body{
+background-image: url("pic/tuyet.jpg");
+}
