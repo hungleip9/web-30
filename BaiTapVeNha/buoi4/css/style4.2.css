@@ -15,6 +15,7 @@
 	line-height: 45px;
 	border-left: 1px solid white;
 	width: 110px;
+	
 
 }
 #menu>ul>li>a{
@@ -64,6 +65,9 @@ a{
 }
 #submenu2 li{
 	border-top:1px solid #AAD862 !important;
+	width: 250px;
+	height: 30px;
+	text-align: center;
 }
 #submenu2 li:hover{
 	background-color: #AAD862; 
@@ -78,4 +82,8 @@ a{
 }
 i{
 	color: white;
+float: left;
+}
+.menu ul li >.bd{
+	text-align: center !important; 
 }

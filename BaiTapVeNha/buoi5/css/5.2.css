@@ -1,0 +1,249 @@
+*{
+	font-family: 'Arial';
+	margin:0;
+	padding: 0;
+}
+.web{
+margin: 0 auto;
+width: 100%;
+}
+.header{
+	width: 100%;
+	height: 56px;
+	background-color: #cd1818;
+	position: relative;
+	display: inline-block;
+}
+.search form input{
+	width: 450px;
+	height: 38px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.search form button{
+	width: 60px;
+    height: 40px;
+   margin-top: 10px;
+    top: 0;
+    right: 0;
+    border: none;
+    background: #333;
+    
+    font-size: 20px;
+}
+button i{
+	color: white;
+	width: auto;
+    overflow: visible;
+    font-size: 30px;
+}
+
+.menu1{
+	    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin-right: 40px;
+	 
+}
+.menu1 ul{
+list-style-type:none;
+}
+.menu1 li{
+	    height: 55px;
+    padding: 6px 2px 0 2px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.menu1 a{
+	text-decoration: none;
+}
+.menu1 span{
+	color: white;
+}
+.menu1 i{
+	color: white;
+}
+.logo{
+	  width: 87px;
+    margin-top: 8px;
+    
+    float: left;
+    
+    
+    margin-left: 100px;
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+.menu{
+	width: 100%;
+	background-color: #252525;
+	height: 36px;
+
+
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+
+}
+.menu i{
+	color: white;
+	font-size: 30px;
+	padding-right: 10px;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu li{
+	display: inline-block;
+	width: 110px;
+	padding-left: 20px;
+}
+.content{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	background-color: #fff;
+	
+
+}
+
+.box1{
+	width: 65%;
+	height: auto;
+	float: left;
+	
+}
+.listtext{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	line-height: 200%;
+	
+	
+}
+.owl-lazy{
+	width: 700px;
+}
+.item{
+	width: 110px;
+	height: 60px;
+	float: left;
+	
+}
+.item span{
+	font-size: 12px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+}
+.box2{
+	width: 30%;
+	float: left;
+	height: auto;
+}
+.text2{
+	background: #fff;
+    padding: 11px 15px 15px 15px;
+    height: 155px;
+    width: 100%;
+
+}
+.text2 h3{
+color: red;
+float: left;
+}
+.text2 a{
+	text-decoration: none;
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.lazy{
+	float: left;
+}
+#ko{
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+	float: left;
+}
+.Boxsp{
+	float: left;
+    width: 30%;
+    padding: 0 4.5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.Boxsp a{
+	text-decoration: none;
+	color: black;
+}
+.listmenu{
+    padding: 12px 12px 6px 12px;
+    background: #e5e5e5;
+}
+.listmenu ul{
+	list-style-type: none;
+}
+.listmenu ul li{
+	display: inline-block;
+	 width: 98px;
+	 height: 30px;
+    vertical-align: middle;
+    margin: 0 2px 6px 0;
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+}
+.listmenu ul li p{
+		
+		line-height: 200%;
+		display: inline-block;
+}
+.pkgt{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	
+}
+.pkgt a{
+	text-decoration: none;
+	color: black;
+	float:left;
+	display: block;
+	width: 100px;
+	padding-left: 33px;
+	padding-right: 20px: 
+
+
+	}
+	.footer{
+		color: red;
+		font-weight: bold;
+		text-align: center;
+	}
+	.Gioithieu{
+	
+	}
+	.Gioithieu ul{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	}
+	.Gioithieu ul li{
+		color: blue;
+		list-style-type: none;
+
+	}

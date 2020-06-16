@@ -1,0 +1,43 @@
+#menu{
+	position: relative;
+	width: 291px;
+	height: 225px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	background-color: #EEEEEE;
+	font-weight: bold;
+	overflow: hidden;
+}
+.pic{
+	width: 100%;
+	height: 85%;
+	position: absolute;
+	border-radius: 0px 0px 8px 8px;
+	transition:ease-in-out 0.5s;
+}
+#tieude{
+	 padding-bottom: 11px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+#footer{
+	 border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    width: 283px;
+    background-color: #444444;
+    overflow: hidden;
+    color: white;
+    height: 29px;
+    font-size: 12.5px;
+    padding-left: 8px;
+    opacity: 0.8;
+}
+.pic:hover{
+	position: absolute;
+	transform: scale(1.2);
+    transition:ease-in-out 0.5s;
+}

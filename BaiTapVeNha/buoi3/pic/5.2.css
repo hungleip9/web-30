@@ -1,0 +1,195 @@
+*{
+	font-family: 'Arial';
+	margin:0;
+	padding: 0;
+}
+.web{
+margin: 0 auto;
+width: 100%;
+}
+.header{
+	width: 100%;
+	height: 56px;
+	background-color: #cd1818;
+	position: relative;
+	display: inline-block;
+}
+.search form input{
+	width: 350px;
+	height: 38px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+.search form button{
+	width: 60px;
+    height: 40px;
+   margin-top: 10px;
+    top: 0;
+    right: 0;
+    border: none;
+    background: #333;
+    
+    font-size: 20px;
+}
+button i{
+	color: white;
+	width: auto;
+    overflow: visible;
+    font-size: 30px;
+}
+
+.menu1{
+	width: 100px;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin-right: 400px;
+	 
+}
+.menu1 ul{
+list-style-type:none;
+}
+.menu1 li{
+	    height: 55px;
+    padding: 6px 2px 0 2px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.menu1 a{
+	text-decoration: none;
+}
+.menu1 span{
+	color: white;
+}
+.menu1 i{
+	color: white;
+}
+.logo{
+	  width: 87px;
+    margin-top: 8px;
+    
+    float: left;
+    position: relative;
+    
+    
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+.menu{
+	width: 100%;
+	background-color: #252525;
+	height: 36px;
+
+
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+
+}
+.menu i{
+	color: white;
+	font-size: 30px;
+	padding-right: 10px;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu li{
+	display: inline-block;
+	width: 120px;
+	padding-left: 50px;
+}
+.content{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	background-color: #f3f3f3;
+	
+
+}
+
+.box1{
+	width: 70%;
+	height: auto;
+	float: left;
+	
+}
+.listtext{
+	width: 790px;
+	height: 60px;
+	background-color: white;
+	line-height: 200%;
+	
+	
+}
+.owl-lazy{
+	width: 790px;
+}
+.item{
+	width: 130px;
+	height: 60px;
+	float: left;
+	
+}
+.item span{
+	font-size: 15px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+}
+.box2{
+	width: 30%;
+	float: left;
+	height: auto;
+	
+	
+	
+	
+}
+.text2{
+	background: #fff;
+    padding: 11px 15px 15px 15px;
+    height: 155px;
+
+}
+.text2 h3{
+color: red;
+float: left;
+}
+.text2 a{
+	text-decoration: none;
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.lazy{
+	float: left;
+}
+#ko{
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+	float: left;
+}
+.Boxsp{
+	float: left;
+    width: 30%;
+    padding: 0 4.5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.Boxsp a{
+	text-decoration: none;
+	color: black;
+}
