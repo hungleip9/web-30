@@ -65,8 +65,14 @@ section{
 	text-decoration: none;
 	color: black;
 	position: relative;
-
 	
+	
+}
+._3 #name{
+	float: left;
+}
+._3 i{
+	float: left;
 }
  .img1{
 	background-image: url('../pic/euroloo.co.uk.png');
@@ -205,153 +211,197 @@ button{
 	float: left;
 	
 }
-@media screen and (min-width:701px) and (max-width:960px){
-#banner{
-		width: 80%;
+
+@media screen and (min-width: 701px) and (max-width: 960px){
+	
+.bander{
+		width: 90%;
+	}
+	.bander img{
+		width: 150px;
+		height: auto;	
+	}
+	.contact{
+		width: 100px;
+	}
+	.contact p{
+		font-size: 15px;
+	}
+	.content{
+		padding-top: 10px;
+		padding-right: 10px;
+	}
+	#block1{
+		padding-top: 60px;
 	}
 	#block1 h1{
-		font-size: 35px;
+		font-size: 30px;
 	}
 	#block1 p{
 		font-size: 20px;
 	}
 	#block2{
-		height: 700px;
-	}
-	.img_1, .img_2, .img_3, .img_4, .img_5, .img_6{
-		height: 116px;
-	}
-	._3 h2{
-		padding-right: 75px;
+		width: 100%;
 	}
 	._3{
-		height: 190px;
+		width: 30%;
+		height: auto;
+		padding-right: 10px;
+		margin-right:0px;
 	}
-	#content_1{
-		height: 1000px;
+	._3 p{
+		font-size: 15px;
 	}
-	#content_2{
-		height: 605px;
+	.boxtext{
+		padding-top: 10px;
 	}
-	.icon_2{
-		padding-left: 20px;
-    	padding-right: 20px;
+	.content2 {
+		width: 100%;
 	}
-	.pright{
-		font-size: 40px !important;
+	.text1{
+		width: 45%;
+		float: left;
 	}
-	#_2right p {
-    	padding-bottom: 75px;
+	.text2{
+		width: 45%;
+		float: left;
 	}
-	#content_2 p{
-		font-size: 18px;
+	.content2 h2{
+		font-size: 30px;
+	}
+	.content2 p{
+		font-size: 20px;
+	}
+	.foot{
+		width: 100%;
+
+	}
+	.foot input{
+		width: 800px;
+	}
+	.foot .text-mid{
+		width: 800px !important;
 	}
 }
 
-@media screen and (min-width:481px) and (max-width:700px){
-	*{
-		font-size: 15px;
-	}
-	#header{
-		height: 85px;
-	}
-	#banner{
-		width: 100%;
-	}
-	/*CONTENT*/
-	/*ct1*/
-	#content_1{
-		height: 1045px;
-	}
-	#block1 h1{
-		font-size: 31px;
-	}
-	#block2{
-		height: 770px;
-	}
-	#block1 p{
-		font-size: 17px;
-	}
-	._3{
-		margin-bottom: 20px;
-		width: 46.8%;
-		height: 220px;
-	}
-	.img_1, .img_2, .img_3, .img_4, .img_5, .img_6{
-		height: 85px;
-	}
-	._3 h2{
-		padding-right: 146px;
-	}
-	#block3 p{
-		font-size: 17px;
-	}
-	/*ct2*/
-	#content_2{
-		height: 590px;
-	}
-	#_2left{
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	#_2right{
-		width: 100%;
-	}
+
 }
-@media screen and (max-width:480px){
-	._3{
-		width: 100%;
+
+@media screen and (min-width:481px) and (max-width:700px){
+	
+	.bander{
+		width: 60%;
 	}
-	#imgbn{
-		margin: 0 auto;
-		padding-left: 0px !important;
-		padding-right: 0px !important;
-	}
-	#banner{
-		border: none !important;
+	.bander img{
+		width: 100px;
+		height: auto;	
 	}
 	.contact{
-		display: none;
+		width: 40px;
 	}
-	/*CONTENT*/
-	/*ct1*/
-	#content_1{
-		height: 2700px;
+	.contact p{
+		font-size: 12px;
+	}
+	.content{
+		padding-top: 10px;
+	}
+	#block1{
+		padding-top: 10px;
 	}
 	#block1 h1{
-		text-align: justify;
-		font-size: 30px;
+		font-size: 25px;
 	}
 	#block1 p{
-		display: none;
+		font-size: 18px;
 	}
-	#block3 p{
-		font-size: 22px;
+	#block2{
+
 	}
-	._3 h2{
-		padding-right: 228px;
+	._3{
+		width: 240px;
+		height: auto;
 	}
-	/*ct2*/
-	#content_2{
-		height: 1050px;
+	._3 p{
+		font-size: 15px;
 	}
-	#_2left{
-		width: 100%;
+	.boxtext{
+		padding-top: 10px;
 	}
-	#_2right{
-		margin-top: 55px;
-		width: 100%;
-		clear: both !important;
+	.content2 h2{
+		font-size: 30px;
 	}
-	.icon_2{
-		padding-left: 30px;
-    	padding-right: 30px;
+	.content2 p{
+		font-size: 20px;
 	}
-	/*FOOTER*/
-	#footer{
-		height: 720px;
+	.foot{
+		width: 40%;
+
 	}
-	.btn{
-		width: 100%;
+	.foot input{
+		width: 450px;
+	}
+	.foot .text-mid{
+		width: 450px !important;
 	}
 }
+
+@media screen and (max-width:480px){
+	.bander{
+		width: 80%;
+	}
+	.bander .contact{
+		width: 25px;
+		padding-right: 5px;
+	}
+	.bander img{
+		width: 90px;
+		height: auto;
+		
+	}
+	.bander p{
+		font-size: 12px;
+	}
+	.content {
+		width: 100%;
+
+	}
+	#block1 h1{
+		font-size: 25px;
+	}
+	#block1 p{
+		font-size: 20px;
+	}
+	.content2 h2{
+		font-size: 23px;
+	}
+	.content2 p{
+		font-size: 18px;
+	}
+	.boxtext{
+		padding-top: 10px;
+	}
+	._3{
+		width: 100%;
+	}
+
+	._3 a{
+
+	}
+	._3 p{
+		font-size: 15px;
+	}
+	.box12 {
+		padding-top: 10px;
+	}
+	.foot{
+		width: 40%;
+
+	}
+	.foot input{
+		width: 280px;
+	}
+	.foot .text-mid{
+		width: 280px !important;
+	}
+}
+
