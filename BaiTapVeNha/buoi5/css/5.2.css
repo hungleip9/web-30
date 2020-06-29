@@ -18,7 +18,7 @@ width: 100%;
 	width: 450px;
 	height: 38px;
 	float: left;
-	margin-left: 80px;
+	margin-left: 200px;
 	margin-top: 10px;
 }
 .search form button{
@@ -44,7 +44,7 @@ button i{
     top: 0;
     right: 0;
     text-align: right;
-    margin-right: 40px;
+    margin-right: 400px;
 	 
 }
 .menu1 ul{
@@ -68,12 +68,12 @@ list-style-type:none;
 	color: white;
 }
 .logo{
-	  width: 87px;
+	  width: 187px;
     margin-top: 8px;
-    
+    display: inline-block;
     float: left;
-    
-    
+    position: relative;
+    z-index: 10;
     margin-left: 100px;
 }
 .logo a{
@@ -103,27 +103,27 @@ list-style-type:none;
 }
 .menu li{
 	display: inline-block;
-	width: 110px;
-	padding-left: 20px;
+	width: 120px;
+	padding-left: 50px;
 }
 .content{
-	width: 80%;
+	width: 70%;
 	height: auto;
 	margin: 0 auto;
 	display: block;
-	background-color: #fff;
+	background-color: #f3f3f3;
 	
 
 }
 
 .box1{
-	width: 65%;
+	width: 70%;
 	height: auto;
 	float: left;
 	
 }
 .listtext{
-	width: 100%;
+	width: 790px;
 	height: 60px;
 	background-color: white;
 	line-height: 200%;
@@ -131,16 +131,16 @@ list-style-type:none;
 	
 }
 .owl-lazy{
-	width: 700px;
+	width: 790px;
 }
 .item{
-	width: 110px;
+	width: 130px;
 	height: 60px;
 	float: left;
 	
 }
 .item span{
-	font-size: 12px;
+	font-size: 15px;
 	display: inline-block;
 	font-weight: bold;
 	text-align: center;
@@ -149,12 +149,15 @@ list-style-type:none;
 	width: 30%;
 	float: left;
 	height: auto;
+	
+	
+	
+	
 }
 .text2{
 	background: #fff;
     padding: 11px 15px 15px 15px;
     height: 155px;
-    width: 100%;
 
 }
 .text2 h3{
@@ -190,60 +193,3 @@ float: left;
 	text-decoration: none;
 	color: black;
 }
-.listmenu{
-    padding: 12px 12px 6px 12px;
-    background: #e5e5e5;
-}
-.listmenu ul{
-	list-style-type: none;
-}
-.listmenu ul li{
-	display: inline-block;
-	 width: 98px;
-	 height: 30px;
-    vertical-align: middle;
-    margin: 0 2px 6px 0;
-    border-radius: 20px;
-    background: #fff;
-    text-align: center;
-}
-.listmenu ul li p{
-		
-		line-height: 200%;
-		display: inline-block;
-}
-.pkgt{
-	width: 100%;
-	height: auto;
-	display: inline-block;
-	
-}
-.pkgt a{
-	text-decoration: none;
-	color: black;
-	float:left;
-	display: block;
-	width: 100px;
-	padding-left: 33px;
-	padding-right: 20px: 
-
-
-	}
-	.footer{
-		color: red;
-		font-weight: bold;
-		text-align: center;
-	}
-	.Gioithieu{
-	
-	}
-	.Gioithieu ul{
-	display: inline-block;
-	float: left;
-	margin-left: 10px;
-	}
-	.Gioithieu ul li{
-		color: blue;
-		list-style-type: none;
-
-	}

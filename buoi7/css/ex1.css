@@ -1,0 +1,58 @@
+.mydiv{
+	width: 24%;
+	height: auto;
+	background-color: rgba(0,0,0,0.3);
+	float: left;
+	display: inline-block;
+	margin:0;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+.infomation{
+	width: 100%;
+	height: auto;
+	background-color: pink;
+	position: relative;
+	overflow: hidden;
+
+}
+img{
+	width: 100%;
+
+}
+.info{
+width: 100%;
+height: 0px;
+background: rgba(0,0,0,0.3);
+position: absolute;
+bottom: 0;
+transition: 2s height;
+
+
+
+}
+.mydiv:hover .info{
+	height: 100%;
+
+}
+.info .content{
+	position: absolute;
+	top:20%;
+}
+
+.footer{
+height: auto;
+
+margin-top: -15px;
+}
+@media all and (max-width: 780px){
+	.mydiv{
+		width: 40%;
+	}
+}
+@media all and (max-width: 480px){
+	.mydiv{
+		width: 100%;
+		margin-top: 10px;
+	}
+}
