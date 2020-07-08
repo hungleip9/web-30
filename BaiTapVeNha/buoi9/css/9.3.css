@@ -1,0 +1,10 @@
+.boxtext{
+	border: 1px solid black;
+	width: 400px;
+	height: 100px;
+	padding-left: 20px;
+}
+input{
+	margin-right: 10px;
+	font-weight: bold;
+}
