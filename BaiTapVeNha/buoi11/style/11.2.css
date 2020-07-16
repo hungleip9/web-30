@@ -12,7 +12,7 @@ h2{
 }
 .box{
 	padding-top: 20px;
-	background-color: red;
+	background-color: #000055;
 	width: 500px;
 	height: 150px;
 }
@@ -28,11 +28,12 @@ h2{
 	color: white;
 }
 .box-list{
-	width: 500px;
+	width: 498px;
 	height: 50px;
-	background-color: pink;
+	background-color: #990000;
 	margin:0 auto;
-	color: white;
+	color: #CCFF00;
+	border: 1px solid black;
 
 }
 .text-input{
