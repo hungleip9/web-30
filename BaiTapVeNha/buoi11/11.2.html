@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>11.2</title>
+	<link rel="stylesheet" href="style/11.2.css">
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<center><div class="box">
+			<center><h2 style="color: white;">MY TO DO LIST</h2>
+			<input type="text" value="Tile..." id="input">
+			<button id="add">Add</button></center>
+			
+			<!-- <div class="box-list"><p class=text-input>'+input_1.val()+'</p><a href="" id="a-icon"><i class="fa fa-times" aria-hidden="true" id="icon"></i></a></div> <div class=clear></div> -->
+	
+			
+		</div>
+		</center>
+	</div>	
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var bt = $('#add');
+		var input_1 = $(':text');
+		
+		$(bt).click(function(){
+			$('.container').append('<div class="box-list"><p class=text-input>'+input_1.val()+'</p><a class="a-icon"><i class="fa fa-times" aria-hidden="true" id="icon"></i></a></div> <div class=clear></div>');
+		});
+		
+		
+
+		$(document).on('click', '.a-icon', function() {
+		$(this).parent().remove();
+
+		});
+	});
+</script>
+</html>

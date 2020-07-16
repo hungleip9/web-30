@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Arial;
+}
+h2{
+	font-size: 40px;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+}
+.box{
+	padding-top: 20px;
+	background-color: red;
+	width: 500px;
+	height: 150px;
+}
+.box input{
+	width: 300px;
+	height: 30px;
+}
+.box button{
+
+	width: 90px;
+	height: 35px;
+	background-color: gray;
+	color: white;
+}
+.box-list{
+	width: 500px;
+	height: 50px;
+	background-color: pink;
+	margin:0 auto;
+	color: white;
+
+}
+.text-input{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 150%;
+	float: left;
+	width: 470px;
+}
+#icon{
+	font-size: 30px;
+	line-height: 150%;
+}
+.clear{
+	clear: both;
+}
+.a-icon{
+	text-decoration: none;
+	color: white;
+}

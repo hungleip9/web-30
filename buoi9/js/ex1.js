@@ -65,5 +65,6 @@ alert('ban dang submit form');
 var element_a = document.getElementById('link_fb');
 console.log(element_a.parentNode.parentNode);
 
+
 var element_body = document.getElementsByTagName('body')[0];
 console.log(element_body.children[0]);
