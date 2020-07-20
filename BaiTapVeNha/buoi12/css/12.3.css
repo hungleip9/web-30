@@ -147,6 +147,7 @@ body{
 }
 .tryit_sp{
 	margin-left: 0.4% !important;
+
 }
 .tryit_sp2{
 	margin-right: 0 !important;
@@ -464,6 +465,7 @@ body{
 	#containerbuy_1 img {
 	    margin-right: 0px !important;
 	    margin-left: 70px;
+	    
 	}
 	#containerbuy_2{
 		width: 100%;
