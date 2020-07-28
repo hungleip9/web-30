@@ -9,23 +9,16 @@ body{
 .clear{
 	clear: both;
 }
+
 .logo_banner{
 	font-family: 'Open Sans', sans-serif;
 	border: 1px solid #FF6600;
 	padding: 10px;
 	color: #FF6600 !important;
 	margin-top: 10px;
+	margin-left: 30px;
 }
-.top_banner{
-	width: 100%;
-	height: 620px;
-	color: white;
-	background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%), url('../pic/homebg.jpg');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-    background-attachment: scroll;
-}
+
 .nav_top{
 	padding: 0;
 	width: 100%;
@@ -34,7 +27,7 @@ body{
 	margin-right: 0;
 }
 .menu_right{
-	margin-left: 61%;
+	margin-left: 40%;
 	font-family: 'Open Sans', sans-serif;
 }
 .top_banner h1{
@@ -68,6 +61,8 @@ body{
 	text-align: center;
 	margin-top: 50px;
 	font-size: 20px;
+	color: #3333CC !important;
+
 }
 .btn_vegas{
 	width: 220px;
@@ -80,23 +75,48 @@ body{
 	transition: .3s ease;
 
 }
-
-
-.img-ct2{
-	height: 200px;
-	width: 300px;
-	margin-right: 20px;
-	margin-left: 20px;
-	background-image: url('../pic/stabmenubg.png');
-	background-size: 100% auto;
-	display: inline-block;
+.ct1-text{
+	color: black !important;
 }
-.img-ct2 i{
+.ct1-box li,{
+width: 5px !important;
+height: 5px !important;
+border: 1px solid white;
+border-radius: 5px !important;
+margin-right: 10px;
+}
+.ct12-box li{
+width: 5px !important;
+height: 5px !important;
+border: 1px solid white;
+border-radius: 5px !important;
+margin-right: 10px;
+}
+
+.container{
+	padding: 0;
+		
+	
+	margin:0 auto;
+}
+
+#img-ct2{
+	height: 200px;
+	
+	
+	background-image: url('../pic/stabmenubg.png');
+	background-repeat: no-repeat;
+	
+}
+
+
+
+#img-ct2 i{
 	font-size: 30px;
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
-.img-ct2 p{
+#img-ct2 p{
 	font-weight: bold;
 	font-size: 20px;
 	color: #666666;
@@ -125,6 +145,7 @@ body{
 	background-image: url('../pic/stab1.png');
 	height: 570px;
 	background-size: 100% auto;
+	background-repeat: no-repeat;
 
 
 }
@@ -145,7 +166,11 @@ body{
 	
 }
 .ct3-img{
-	margin-top: 90px;
+	margin-top: 45px;
+	height: auto;
+}
+.ct3-img img{
+	width: 100%;
 	height: auto;
 }
 .content3 h4{
@@ -187,6 +212,7 @@ body{
 
 
 }
+
 .icon-ct5 i{
 	font-size: 40px;
 	padding-left: 20px;
@@ -215,24 +241,24 @@ body{
 
 
 }
-.menu-ct6{
+#menu-ct6{
 	background-image: url('../pic/skmenubg.png');
 	background-repeat: no-repeat;
 	width: 170px;
-	height: 150px;
+	height: 70px;
 	text-align: center;
 	float: left;
-	margin-right: 30px;
-	margin-left: 30px;
-	
+}
+#top-ct6{
+	padding-bottom: 20px;
 }
 
-.menu-ct6 p{
+#menu-ct6 p{
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 50px;
 }
-.menu-ct6:hover{
+#menu-ct6:hover{
 	background-image: url('../pic/skmenubgh.png');
 	color: white;
 }
@@ -277,6 +303,10 @@ body{
 	width: 80px;
 	float: left;
 }
+.ct8-img:hover{
+	background-image: url('../pic/iconbgh2.png');
+	color: white;
+}
 .ct8-text{
 	float: left;
 	padding-top: 20px;
@@ -301,13 +331,33 @@ body{
 	margin: 0;
 	border: 1px solid gray;
 	margin-bottom: 20px;
+	position: relative;
+	overflow: hidden;
 }
 .ct10-icon{
 	background-image: url('../pic/ch_col_icn.png');
 	background-repeat: no-repeat;
 	float: left;
 	height: 50px;
-	width: 50px;
+	width: 10%;
+}
+.pupu{
+	float: left;
+	width: 90%;
+	height: 0;
+	padding-left: 50px;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	transition: height 1s;
+
+}
+.ct10-mini:hover .pupu{
+	height : 80%;
+}
+.ct10-icon:hover{
+	background-image: url('../pic/ch_col_icn_h.png');
+	color: white;
 }
 #ct11-box{
 	margin-top: 50px;
@@ -326,8 +376,15 @@ body{
 	border-bottom: 2px solid #FF6600;
 }
 #ct12-box{
-	height: 500px;
-	background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%), url('../pic/testbg.jpg');
+	width: 100%;
+	padding: 0;
+}
+.container-12{
+	padding: 0;
+}
+#ct12-box img{
+	width: 100%;
+	
 }
 .ct-12-text{
 	text-align: center;
@@ -377,16 +434,15 @@ body{
 	font-size: 13px;
 }
 form input{
-
+	margin-bottom: 10px;
 	width: 250px;
 }
-.hang1{
-	float: left;
-	
-}
-.text-mid{
+
+.info-form{
 	width: 500px;
 	height: 200px;
+	border: 1px solid black;
+	
 }
 button{
 width: 150px;
@@ -403,7 +459,8 @@ margin-top: 20px;
 }
 #ct14-box2{
 	background-color: #444444;
-	height: 350px;
+	
+	color: white;
 }
 #ct14-box3{
 	background-color: #111111;
@@ -428,11 +485,14 @@ margin-top: 20px;
 .ct14-icon i{
 	padding-left: 10px;
 }
+.ct14-box2-mini{
+	
+}
 
 
 
 
-.content2, .content3, .content4, .content5, .content6, .content7, .content8, .content9, .content10, .content11, .content12, .content13, .content14{
+.content1, .content2, .content3, .content4, .content5, .content6, .content7, .content8, .content9, .content10, .content11, .content12, .content13, .content14{
 	width: 80%;
 	margin: 0 auto;
 	height: auto;
