@@ -5,6 +5,7 @@
 body{
 	width: 100%;
 	margin:0 auto;
+	font-family: 'Open Sans', sans-serif;
 }
 .clear{
 	clear: both;
@@ -78,7 +79,11 @@ body{
 .ct1-text{
 	color: black !important;
 }
-.ct1-box li,{
+.ct1 img{
+	width: 100%;
+
+}
+.ct1-box li{
 width: 5px !important;
 height: 5px !important;
 border: 1px solid white;
@@ -101,11 +106,15 @@ margin-right: 10px;
 }
 
 #img-ct2{
-	height: 200px;
-	
+	height: 250px;
+	padding: 0;
 	
 	background-image: url('../pic/stabmenubg.png');
 	background-repeat: no-repeat;
+	background-size: 95% auto;
+	text-align: center;
+	margin:0 auto;
+	background-position: center;
 	
 }
 
@@ -125,16 +134,7 @@ margin-right: 10px;
 	margin-top: 20px;
 	height: 570px;
 }
-.ct2-cha{
-	width: 250px;
-	background-color: #DDDDDD;
-	height: 3px;
-}
-.ct2-con{
-	width: 30%;
-	background-color: #FF6600;
-	height: 3px
-}
+
 .box-ct2 h1{
 	padding-bottom: 10px;
 }
@@ -144,9 +144,9 @@ margin-right: 10px;
 #box-img-ct2{
 	background-image: url('../pic/stab1.png');
 	height: 570px;
-	background-size: 100% auto;
+	background-size: 80% auto;
 	background-repeat: no-repeat;
-
+	
 
 }
 .btn_vegasct2{
@@ -172,6 +172,9 @@ margin-right: 10px;
 .ct3-img img{
 	width: 100%;
 	height: auto;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
 }
 .content3 h4{
 	margin-top: 45px;
@@ -196,6 +199,7 @@ margin-right: 10px;
 	height: 500px;
 	padding-top: 130px;
 	margin-bottom: 50px;
+	text-align: center;
 }
 
 .content5 .ct2-cha{
@@ -234,18 +238,30 @@ margin-right: 10px;
 	padding-right: 100px;
 }
 
-#box1-ct6{
+#ct6-box1{
+	margin-top: 30px;
+}
+#ct6-box1 ol li{
+	width: 5px;
+	height: 5px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+#ct6-box1 img{
+	width: 300px;
 	height: auto;
-	margin:0 auto;
-	
-
-
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
 }
 #menu-ct6{
 	background-image: url('../pic/skmenubg.png');
 	background-repeat: no-repeat;
-	width: 170px;
-	height: 70px;
+	background-position: center;
+	background-size: 80% auto;
+	width: 80%;
+	height: 35%;
 	text-align: center;
 	float: left;
 }
@@ -257,11 +273,9 @@ margin-right: 10px;
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 50px;
+	padding-top: 5%;
 }
-#menu-ct6:hover{
-	background-image: url('../pic/skmenubgh.png');
-	color: white;
-}
+
 .text-ct6{
 	padding-left: 30px;
 }
@@ -377,13 +391,17 @@ margin-right: 10px;
 }
 #ct12-box{
 	width: 100%;
+	height: auto;
 	padding: 0;
 }
 .container-12{
 	padding: 0;
 }
-#ct12-box img{
-	width: 100%;
+#ct12-mini{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80% auto;
+	height: 200px;
 	
 }
 .ct-12-text{
@@ -488,6 +506,7 @@ margin-top: 20px;
 .ct14-box2-mini{
 	
 }
+
 
 
 

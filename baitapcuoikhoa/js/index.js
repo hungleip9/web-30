@@ -14,41 +14,41 @@ $(document).ready(function($) {
 			return re2.test(Phone);
 		}
 		if ( name == "") {
-			$('#erroname').html('ban chua nhap day du ten');
+			$('#erroname').html('bạn chưa nhập đầy đủ tên');
 			return;
 		}
 		else if($('#Name').val().length <= 8){
-			$('#erroname').html('yeu cau nhap ho ten >8 ky tu');
+			$('#erroname').html('bạn phải nhập lớn hơn 8 ký tự');
 			return;
 		}
 		else{
-			$('#erroname').html();
+			$('#erroname').html(null);
 		}
 		if ( phone == "") {
-			$('#errophone').html('ban chua nhap day du phone');
+			$('#errophone').html('bạn chưa nhập đầu đủ số phonenumber');
 			return;
 		}
 		else if (!phonenumber(Phone.value)) {
-				Phone.nextElementSibling.innerHTML = "yeu cau nhap dung phonenumber";
+				Phone.nextElementSibling.innerHTML = "yêu câu nhập đúng phonenumber";
 				return;
 			}
 		else{
-			$('#errophone').html();
+			$('#errophone').html(null);
 		}
 		if ( email == "") {
-			$('#erroemail').html('ban chua nhap day du email');
+			$('#erroemail').html('bạn chưa nhập đầy đủ email');
 		}
 		else if (!validateEmail(Email.value)) {
-				Email.nextElementSibling.innerHTML = "Yeu cau nhap dung dinh dang cua email";
+				Email.nextElementSibling.innerHTML = "Yêu cầu nhập đúng định dạng của email";
 				return;
 		}
 		else{
-			$('#erroemail').html();
+			$('#erroemail').html(null);
 		}
 		if ( diachi == "") {
-			$('#errodiachi').html('ban chua nhap day du dia chi');
+			$('#errodiachi').html('Bạn chưa nhập đầy đủ địa chỉ');
 		}else{
-			$('#errodiachi').html();
+			$('#errodiachi').html(null);
 		}
 
 		if( name && phone && email && diachi){
@@ -60,5 +60,27 @@ $(document).ready(function($) {
 
 		
 
+	});
+
+	$('#box-ct4').mouseenter(function(){
+    $('#ct4-icon').addClass('bounceOut');
+    $('h2').addClass('tada');
+
+	});
+	$('#box-img-ct2').mouseenter(function(){
+    $('#box-img-ct2').addClass('tada');
+    
+
+    });
+    $('#box-ct5').mouseenter(function(){
+    $('.img-box-ct5').addClass('hinge');	
+    });
+    
+    $('#top-btn').click(function(){
+    	$('html, body').animate({scrollTop : 0}, 800);
+    });
+    $('.counter').counterUp({
+      delay: 10,
+      time: 2000
 	});
 });
