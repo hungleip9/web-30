@@ -221,5 +221,160 @@
 }
 
 @media screen and (max-width:480px){
+	.nav-item a{
+		color: blue!important;
+	}
+	.menu_right{
+		margin-left: 300px;
+	}
+	.navbar-dark .navbar-toggler {
+        color: rgb(0, 0, 0);
+    	border-color: rgb(0, 0, 0);
+	}
+	.content2{
+		padding-top: 0;
+		height: auto;
+	}
+	#img-ct2{
+		height: 100px;
+		background-size: 100% 100px;
+	}
+	#img-ct2 i{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 20px;
+	}
+	#img-ct2 p{
+		font-size: 15px;
+	}
+	#box-img-ct2{
+		height: 300px;
+	}
+	.content3{
+		margin-top: 90px;
+	}
+	#box-ct5 img {
+		float: none;
+		padding-right: 0;
+		width: 100%;
+	}
+	#menu-ct6{
+		width: 30%;
+		height: 60px;
+		background-size: 90% 100%;
+	}
+	#menu-ct6 p{
+		font-size: 12px;
+		padding-top: 0;
+	}
+	.ct6-text1 h4{
+		font-size: 15px;
+		font-weight: bold;
+	}
+	#box1-ct6{
+		margin-bottom: 10px;
+	}
+	.ct7-nd span{
+		font-size: 20px !important;
+		font-weight: bold;
+	}
+	.ct7-nd i{
+		font-size: 20px !important;
+		font-weight: bold;
+	}
+	.ct7-nd p{
+		font-size: 15px !important;
+		font-weight: bold;
+	}
+	#ct7-box{
+		height: 200px;
+	}
+	#ct7-minibox {
+		padding-top: 20px;
+		height: auto;
+	}
+	.ct2-cha {
+		width: 200px;
+	}
+	#ct9-box{
+		margin-top: 10px;
+	}
+	#ct9-box img{
+		width: 100%;
+	}
+	#ct10-box{
+		padding-left: 0;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+	#ct10-box img{
+		width: 100%;
+		height: auto;
+	}
+	#ct11-menu{
+		padding: 0;
+	}
+	#ct11-menu p{
+		font-size: 12px;
+		font-weight: bold;
+	}
+	#ct12-box-2{
+		height: 100px;
+	}
+	#ct12-mini{
+		padding-top: 5px;
+		height: 100px;
+	}
+	.content13 .ct2-cha{
+		width: 150px !important;
+	}
+	form input{
+		width: 100%;
+	}
+	.info-form{
+		width: 100%;
+	}
+	.ct13-mini{
+		width: 50px;
+		height: 50px;
 
+	}
+	.ct13-text-right h4{
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.ct13-text-right p{
+		font-size: 10px;
+		font-weight: bold;
+	}
+	#ct13-box{
+		padding: 0;
+	}
+	#ct13-box-2{
+		padding: 0;
+	}
+	.nav_top{
+		width: 100%;
+	}
+	.content14 .logo_banner{
+		margin-left: 0;
+	}
+	.mini-text p{
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.ct14-box2-x h4{
+		font-size: 15px;
+	}
+	.ct14-box2-x a{
+		font-size: 12px;
+		font-weight: bold;
+	}
+	#ct14-box3-mini{
+		padding-top: 5px;
+		padding-left: 5px;
+	}
+	.pupu h4{
+		font-size: 20px;
+	}
 }
